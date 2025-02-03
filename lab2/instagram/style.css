@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+.main {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.first img {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    outline: none;
+}
+
+.login-btn {
+    background-color: #0095F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0078D4;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.separator hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.separator span {
+    margin: 0 10px;
+}
+
+.fb-login {
+    color: #385185;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.fb-login:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #00376B;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.signup-box a {
+    color: #0095F6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
